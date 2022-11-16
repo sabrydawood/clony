@@ -23,7 +23,7 @@ const siteConfig: SiteConfig = {
       url: websiteUrl,
       type: "website",
       image: {
-        url: `${websiteUrl}/static/images/banner.png`,
+        url: `blob:https://vercel.com/d3258944-2a5e-465b-bf0e-9dd20d7ec702`,
         width: 1240,
         height: 480,
         alt: "an website for virus24 packages documention",
@@ -37,7 +37,7 @@ const siteConfig: SiteConfig = {
       handle: "@virus24",
       cardType: "summary_large_image",
       image: {
-        url: `${websiteUrl}/static/images/banner.png`,
+        url: `blob:https://vercel.com/d3258944-2a5e-465b-bf0e-9dd20d7ec702`,
         width: 1012,
         height: 506,
         alt: "an website for virus24 packages documention",
