@@ -21,9 +21,4 @@ export const topLevelSectionsRoutes = [
     path: "/resources",
     icon: RiArchiveFill,
   },
-  {
-    label: "Team",
-    path: "/team",
-    icon: RiGroupFill,
-  },
 ];
