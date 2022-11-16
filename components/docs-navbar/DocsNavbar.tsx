@@ -16,7 +16,6 @@ import { SearchButton } from "@/components/search-button";
 import { Link } from "@/components/link";
 import { LinkBox } from "@/components/link-box";
 import { ThemeMenu } from "@/components/theme-toggle";
-import { MobileMenu } from "@/components/mobile-menu";
 import { MobileDrawer, MobileDrawerButton } from "@/components/mobile-drawer";
 import { RiGithubFill } from "react-icons/ri";
 import { Route } from "@/types";
@@ -110,7 +109,7 @@ const DocsNavbar: FC<DocsNavbarProps> = ({ routes, ...props }) => {
               flex="1"
               justifyContent="end"
             >
-              <MobileMenu routes={routes} />
+							{/*<MobileMenu routes={routes} />*/}
             </Box>
           </Flex>
         </Container>
