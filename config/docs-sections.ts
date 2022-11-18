@@ -15,7 +15,17 @@ export const docsSections: Section[] = [
 
 
     ],
-  },
+  }, 
+  {
+    section: "Virus Nsfw",
+    routes: [
+      { title: "main", path: "/canvas/main" },
+      { title: "filter", path: "/canvas/Profile" },
+
+
+    ],
+  }, 
+
 ];
 
 export const allDocsRoutes: Route[] = docsSections.flatMap(
