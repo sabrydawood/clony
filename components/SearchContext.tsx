@@ -34,7 +34,7 @@ const SearchProvider: FC<SearchProviderProps> = ({ children }) => {
 
     topLevelSectionsRoutes.map((section) =>
       actions.push({
-        id: `canvas-${slugger.slug(section.label)}`,
+        id: `doc-${slugger.slug(section.label)}`,
         name: section.label,
         section: "Sections",
         icon: <Icon as={section.icon} />,
@@ -54,10 +54,10 @@ const SearchProvider: FC<SearchProviderProps> = ({ children }) => {
     docsSections.map(({ section, routes }) =>
       routes.map((route) =>
         actions.push({
-          id: `canvas-${slugger.slug(route.title)}`,
+          id: `doc-${slugger.slug(route.title)}`,
           name: route.title,
           section: "Documentation",
-          subtitle: `canvas / ${section} / ${route.title}`,
+          subtitle: `doc / ${section} / ${route.title}`,
           perform: () => router.push(route.path),
         })
       )

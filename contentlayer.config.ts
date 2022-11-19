@@ -22,10 +22,9 @@ const computedFields: ComputedFields = {
       siteConfig.repo?.editUrl ? `${siteConfig.repo.editUrl}/${doc._id}` : null,
   },
 };
-
 export const Doc = defineDocumentType(() => ({
   name: "Doc",
-  filePathPattern: `canvas/*.mdx`,
+  filePathPattern: `doc/*.mdx`,
   contentType: "mdx",
   fields: {
     title: {

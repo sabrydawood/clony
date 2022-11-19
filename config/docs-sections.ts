@@ -4,14 +4,14 @@ export const docsSections: Section[] = [
   {
     section: "Discord-virus24",
     routes: [
-      { title: "main", path: "/canvas/main" },
-      { title: "ProfileCard", path: "/canvas/Profile" },
-      { title: "WelcomeCard", path: "/canvas/Welcome" },
-      { title: "GoodbyCard", path: "/canvas/Goodbye" },
-      { title: "FireSmokeCard", path: "/canvas/FireSmoke" },
-      { title: "FireCard", path: "/canvas/Fire" },
-      { title: "HeartsCard", path: "/canvas/Hearts" },
-      { title: "PetPetCard", path: "/canvas/PetPet" },
+      { title: "Discord-virus24", path: "/doc/discord-virus24" },
+      { title: "ProfileCard", path: "/doc/Profile" },
+      { title: "WelcomeCard", path: "/doc/Welcome" },
+      { title: "GoodbyCard", path: "/doc/Goodbye" },
+      { title: "FireSmokeCard", path: "/doc/FireSmoke" },
+      { title: "FireCard", path: "/doc/Fire" },
+      { title: "HeartsCard", path: "/doc/Hearts" },
+      { title: "PetPetCard", path: "/doc/PetPet" },
 
 
     ],
@@ -19,8 +19,23 @@ export const docsSections: Section[] = [
   {
     section: "Virus Nsfw",
     routes: [
-      { title: "main", path: "/canvas/main" },
-      { title: "filter", path: "/canvas/Profile" },
+      { title: "virus Nsfw", path: "/doc/virus-nsfw" },
+      { title: "filter", path: "/doc/Filter" },
+
+
+    ],
+  }, 
+  {
+    section: "Virus Back",
+    routes: [
+      { title: "Virus-Back", path: "/doc/virus-back" }
+
+    ],
+  }, 
+  {
+    section: "Discord Bot Genrator",
+    routes: [
+      { title: "Bot Genrator", path: "/doc/bot-genrator" }
 
 
     ],

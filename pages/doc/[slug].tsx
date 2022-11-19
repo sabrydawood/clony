@@ -94,8 +94,8 @@ const Document: FC<DocumentProps> = ({ document, currentRoute, section }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = allDocs.map((doc) => ({
-    params: { slug: doc._id.replace("canvas/", "").replace(".mdx", "") },
+  const paths = allDocs.map((docum) => ({
+    params: { slug: docum._id.replace("doc/", "").replace(".mdx", "") },
   }));
 
   return {
@@ -106,8 +106,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const document = allDocs.find((document) =>
-    document._id.endsWith(`canvas/${params?.slug}.mdx`)
-  );
+    document._id.endsWith(`doc/${params?.slug}.mdx`)
+);
   const section = document
     ? findSectionByPath(document.slug, docsSections)
     : null;
