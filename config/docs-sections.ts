@@ -2,9 +2,9 @@ import { Route, Section } from "@/types";
 
 export const docsSections: Section[] = [
   {
-    section: "Discord-virus24",
+    section: "Discord virus24",
     routes: [
-      { title: "Discord-virus24", path: "/doc/discord-virus24" },
+      { title: "Discord virus24", path: "/doc/discord-virus24" },
       { title: "ProfileCard", path: "/doc/Profile" },
       { title: "WelcomeCard", path: "/doc/Welcome" },
       { title: "GoodbyCard", path: "/doc/Goodbye" },
@@ -19,8 +19,8 @@ export const docsSections: Section[] = [
   {
     section: "Virus Nsfw",
     routes: [
-      { title: "virus Nsfw", path: "/doc/virus-nsfw" },
-      { title: "filter", path: "/doc/Filter" },
+
+      { title: "Filter", path: "/doc/Filter" },
 
 
     ],
@@ -28,7 +28,7 @@ export const docsSections: Section[] = [
   {
     section: "Virus Back",
     routes: [
-      { title: "Virus-Back", path: "/doc/virus-back" }
+      { title: "Virus Back", path: "/doc/virus-back" }
 
     ],
   }, 
