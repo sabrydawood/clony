@@ -36,8 +36,13 @@ export const docsSections: Section[] = [
     section: "Discord Bot Genrator",
     routes: [
       { title: "Bot Genrator", path: "/doc/bot-genrator" }
-
-
+    ],
+  }, 
+	
+  {
+    section: "Dev Json Database",
+    routes: [
+      { title: "Dev.db", path: "/doc/Dev.db" }
     ],
   }, 
 
