@@ -2,7 +2,7 @@ import { SiteConfig } from "@/types";
 
 export const websiteUrl = process.env.NEXT_PUBLIC_VERCEL_URL;
 export const githubBaseUrl =
-  "https://github.com/virgel1995/Virus-Docs";
+  "https://github.com/virgel1995/clony";
 
 const siteConfig: SiteConfig = {
   repo: {
