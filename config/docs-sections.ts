@@ -2,6 +2,29 @@ import { Route, Section } from "@/types";
 
 export const docsSections: Section[] = [
   {
+    section: "Web",
+    routes: [
+
+      { title: "App Cookie", path: "/doc/app-cookie" },
+			{ title: "Virus Back", path: "/doc/virus-back" }
+
+    ],
+  }, 
+	{
+    section: "Json Database",
+    routes: [
+      { title: "Dev.db", path: "/doc/Dev.db" },
+			{ title: "Bad.db", path: "/doc/bad.db" }
+    ],
+  }, 
+  {
+    section: "Virus Nsfw",
+    routes: [
+
+      { title: "Filter", path: "/doc/Filter" },
+    ],
+  }, 
+  {
     section: "Discord virus24",
     routes: [
       { title: "Discord virus24", path: "/doc/discord-virus24" },
@@ -12,24 +35,6 @@ export const docsSections: Section[] = [
       { title: "FireCard", path: "/doc/Fire" },
       { title: "HeartsCard", path: "/doc/Hearts" },
       { title: "PetPetCard", path: "/doc/PetPet" },
-
-
-    ],
-  }, 
-  {
-    section: "Virus Nsfw",
-    routes: [
-
-      { title: "Filter", path: "/doc/Filter" },
-
-
-    ],
-  }, 
-  {
-    section: "Virus Back",
-    routes: [
-      { title: "Virus Back", path: "/doc/virus-back" }
-
     ],
   }, 
   {
@@ -38,15 +43,6 @@ export const docsSections: Section[] = [
       { title: "Bot Genrator", path: "/doc/bot-genrator" }
     ],
   }, 
-	
-  {
-    section: "Json Database",
-    routes: [
-      { title: "Dev.db", path: "/doc/Dev.db" },
-			      { title: "Bad.db", path: "/doc/bad.db" }
-    ],
-  }, 
-
 ];
 
 export const allDocsRoutes: Route[] = docsSections.flatMap(
