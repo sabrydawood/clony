@@ -40,9 +40,10 @@ export const docsSections: Section[] = [
   }, 
 	
   {
-    section: "Dev Json Database",
+    section: "Json Database",
     routes: [
-      { title: "Dev.db", path: "/doc/Dev.db" }
+      { title: "Dev.db", path: "/doc/Dev.db" },
+			      { title: "Bad.db", path: "/doc/bad.db" }
     ],
   }, 
 
