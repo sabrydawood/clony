@@ -51,6 +51,7 @@ export interface Author {
 export interface SEO {
   title?: string;
   description?: string;
+	output?: string;
   canonical?: string;
   openGraph?: OpenGraph;
   twitter?: Twitter;

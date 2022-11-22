@@ -9,7 +9,7 @@ const Seo: FC<SEO> = ({ ...seo }) => {
 
   const defaultSeo = siteConfig.seo;
   const meta = { ...defaultSeo, ...seo };
-  const image= meta.output ? meta.output : meta.openGraph?.image?.url
+  const image = meta.output ? meta.output : meta.openGraph?.image?.url
 	console.log(image)
   return (
     <Head>
