@@ -5,11 +5,12 @@ import { SEO } from "@/types";
 import { siteConfig, websiteUrl } from "@/config";
 
 const Seo: FC<SEO> = ({ ...seo }) => {
-  const router = useRouter();
+	const router = useRouter();
 
   const defaultSeo = siteConfig.seo;
   const meta = { ...defaultSeo, ...seo };
-
+  const image= meta.output ? meta.output : meta.openGraph?.image?.url
+	console.log(image)
   return (
     <Head>
       <title>{meta.title}</title>
@@ -20,7 +21,7 @@ const Seo: FC<SEO> = ({ ...seo }) => {
       <meta property="og:site_name" content={meta.openGraph?.siteName} />
       <meta property="og:type" content={meta.openGraph?.type} />
       <meta property="og:url" content={`${websiteUrl}${router.asPath}`} />
-      <meta property="og:image" content={meta.openGraph?.image?.url} />
+      <meta property="og:image" content={image} />
       <meta
         property="og:image:width"
         content={meta.openGraph?.image?.width?.toString()}

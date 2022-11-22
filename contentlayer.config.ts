@@ -37,6 +37,11 @@ export const Doc = defineDocumentType(() => ({
       description: "The description of the document",
       required: true,
     },
+		output: {
+      type: "string",
+      description: "image of output",
+      required: false,
+    },
   },
   computedFields: {
     ...computedFields,

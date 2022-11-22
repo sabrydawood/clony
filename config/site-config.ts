@@ -25,7 +25,7 @@ const siteConfig: SiteConfig = {
       image: {
         url: `${websiteUrl}/static/images/banner.png`,
         width: 1240,
-        height: 480,
+        height: 1080,
         alt: "an website for virus24 packages documention",
         type: "image/png",
       },

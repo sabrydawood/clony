@@ -36,7 +36,7 @@ const Document: FC<DocumentProps> = ({ document, currentRoute, section }) => {
   const Component = useMDXComponent(document.body.code);
 
   return (
-    <DocsLayout title={document.title} description={document.description}>
+    <DocsLayout title={document.title} description={document.description} output= {document.output}>
       <Stack
         spacing="4"
         borderBottom="1px"
