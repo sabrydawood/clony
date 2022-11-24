@@ -4,7 +4,7 @@ export const docsSections: Section[] = [
   {
     section: "Web",
     routes: [
-
+      { title: "Phonix Js", path: "/doc/phonix" },
       { title: "App Cookie", path: "/doc/app-cookie" },
 			{ title: "Virus Back", path: "/doc/virus-back" }
 
