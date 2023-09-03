@@ -99,6 +99,8 @@ export default function Document() {
         <link rel="manifest" href="/static/favicons/manifest.json" />
         <meta name="msapplication-TileColor" content="#1A202B" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+            <meta name="google-site-verification" content="Qr4LleY3AkjirXTrYBwh4KfsjxnkR-YAzADnNzP0low" />
+
         <meta name="theme-color" content="#1A202B" />
       </Head>
       <body>
